@@ -45,17 +45,22 @@
     span {
         background-color: white;
         height: 55px;
+        line-height: 50px;
         width: 55px;
         border-radius: 50%;
-        font-size: 50px;
+        font-size: 40px;
         font-weight:600;
-        padding: 10px;
-        padding-bottom: 10px;
+        
+        padding-top: 5px;
         margin: 5px;
         text-align: center;
+        vertical-align: middle;
+        
+        
        
     }
 
+   
 
 
 /******************************************
@@ -81,7 +86,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
+    
 }
 
 /******************************************
